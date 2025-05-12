@@ -26,5 +26,7 @@ Projects in this repo may include:
 
 ## 📂 Project Structure
 
-Each folder contains an individual project with its own README and source files:
+Each folder contains an individual project with its own source files:
+1) Simple-web-Dev
+   
 

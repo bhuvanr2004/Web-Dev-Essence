@@ -27,3 +27,11 @@ Projects in this repo may include:
 ## 📂 Project Structure
 
 Each folder contains an individual project with its own README and source files:
+Web-Dev-Essence/
+├── project-name-1/
+│ ├── index.html
+│ ├── style.css
+│ └── README.md
+├── project-name-2/
+│ └── ...
+└── README.md

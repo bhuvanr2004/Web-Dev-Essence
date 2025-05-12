@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Examples</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .list-container {
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .nested-list {
+            margin-left: 20px;
+        }
+        ol, ul, dl {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">WebDev Learning</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="format.html">Text Format</a></li>
+                <li><a href="lists.html" class="active">Lists</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Lists and Nested Lists</h1>
+        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80" alt="Organized Lists" class="header-image">
+    </header>
+
+    <main>
+        <section class="list-container">
+            <h2 style="color: gray;">Ordered List</h2>
+            <ol>
+                <li style="font-size: 25px;"><b>About me🌟</b></li>
+                <ol type="a">
+                    <li> 👤 Name: Bhuvan Kumar R</li>
+                    <li>📍 Location: Chikkamagalore</li>
+                    <li>🎓 College : MVJCE</li>
+                </ol>
+                
+                <li style="font-size: 25px;"><b > Motto I Live By </b></li>
+                <ol type="a">
+                    <li> "Code. Create. Conquer." 💡💻t</li>
+                    <li>"Every challenge is a step toward success." 🚀"</li>
+                    <li>"Debugging is just an adventure in problem-solving. 🕵️‍♂️🔍"</li>
+                </ol>
+
+                <li style="font-size: 25px;"><b >My Goals & Aspirations </b></li> 
+                    <ol type="a">
+                        <li> 💻 Build an innovative final-year project</li>
+                        <li>🌱 Start my own tech startup</li>
+                        <li>✈️ Travel to [Dream Destination]</li>
+                    </ol>
+                </li>
+                
+               
+            </ol>
+
+            <h2 style="color: gray;">Unordered List</h2>
+            <ul>
+                <li style="font-size: 25px;"> <b>Fun Facts About Me</b></li>
+                    <ul class="nested-list">
+                        <li>🎮 Gaming Enthusiast: Favorite game – 🎮 GTA v
+                        <li> 🎧 Music Lover: I listen to [XXX-TENTACION] music</li >
+                        <li> ☕ Coffee Addict: Can’t start my day without a ☕ cup of coffee!</li>
+                        <li>🐱 Animal Lover: I have a pet 🐶🐱 named Charlie</li></li>
+                    </ul>
+                </li>
+                <li style="font-size: 25px;"><b>🌱 Personal Growth:</b></li>
+                    <ul class="nested-list">
+                        <li>"Be better than yesterday. 📈✨"</li>
+                        <li>🧘‍♂️ Meditate for 10 minutes daily</li>
+                        <li>🏋️‍♂️ Exercise 3 times a week</li>
+                    </ul>
+                
+            </ul>
+
+            <h2 style="color: gray;">Description List</h2>
+            <dl>
+
+                <dt><b>C.O.D.E</b></dt>
+                <dd>Create, Optimize, Develop, Execute</dd>
+                
+
+                <dt><b> S.U.C.C.E.S.S</b></dt>
+                <dd>Stay Unique, Consistent, Creative, Energetic, Smart, Strong</dd>
+
+
+                <dt> <b>D.E.B.U.G.</b></dt>
+                <dd>Detect, Examine, Break, Understand, Grow</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WebAura @1MJ22IS019. All rights reserved.</p>
+    </footer>
+</body>
+</html>

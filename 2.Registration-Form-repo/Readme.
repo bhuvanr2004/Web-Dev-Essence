@@ -1,0 +1,62 @@
+<h1>Registration Form</h1>
+<h2>This is a responsive and stylish Registration Form built using HTML and CSS, designed to collect user details such as name, email, password, age, and more. It includes form validations and a dark-themed user interface.</h2>
+
+🔧 Features
+Fully responsive layout
+
+Clean and modern dark theme
+
+Form validation using HTML5
+
+Profile picture upload
+
+Multiple input types: text, email, number, file, select, textarea
+
+Account type selection using radio buttons
+
+💻 Technologies Used
+HTML5
+
+CSS3
+
+📸 Preview
+(You can add a screenshot here if you like)
+
+📋 Form Fields
+First Name
+
+Last Name
+
+Email
+
+Password (minimum 8 lowercase letters/numbers)
+
+Account Type (Personal or Business)
+
+Profile Picture Upload
+
+Age (13–120)
+
+Referral Source (Dropdown)
+
+Short Bio (Textarea)
+
+🎨 Styling Highlights
+Dark background with light text for readability
+
+Centered form layout with padding and spacing
+
+Highlighted borders for fieldsets
+
+Responsive design suitable for desktop and mobile
+
+✅ To-Do / Enhancements (Optional)
+ Add JavaScript for client-side validation
+
+ Connect form to a backend using PHP/Node.js
+
+ Store form submissions in a database
+
+🧑‍💻 Author
+Your Name
+bhuvanr2004

@@ -1,5 +1,6 @@
-Registration Form
-This is a responsive and stylish Registration Form built using HTML and CSS, designed to collect user details such as name, email, password, age, and more. It includes form validations and a dark-themed user interface.</h2>
+#Registration Form
+
+##This is a responsive and stylish Registration Form built using HTML and CSS, designed to collect user details such as name, email, password, age, and more. It includes form validations and a dark-themed user interface.</h2>
 
 🔧 Features
 Fully responsive layout

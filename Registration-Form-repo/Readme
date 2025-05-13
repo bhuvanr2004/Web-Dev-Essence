@@ -1,0 +1,17 @@
+This is a simple registration form built to collect user data such as name, email, password, and more. It can be integrated into any web application for user sign-up functionality.
+
+🚀 Features
+User-friendly interface
+
+Input validation (client-side / server-side)
+
+Responsive design
+
+Easily customizable
+
+Optional backend integration
+
+🛠️ Technologies Used
+HTML
+
+CSS

@@ -29,5 +29,6 @@ Projects in this repo may include:
 Each folder contains an individual project with its own source files:
 1) Simple-web-page
 2) Registration-Form-repo
+3) Responsive-Landing-Page
    
 

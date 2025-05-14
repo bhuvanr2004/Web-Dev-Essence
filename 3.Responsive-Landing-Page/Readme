@@ -1,0 +1,23 @@
+This is a simple responsive landing page built using HTML and CSS. The layout adjusts for different screen sizes using @media queries.
+
+🛠️ Technologies Used
+HTML5
+
+CSS3 (with media queries)
+
+📱 Responsiveness
+The page is responsive for:
+
+Mobile devices
+
+Tablets
+
+Desktops
+
+
+✨ Features
+Clean and simple layout
+
+Responsive design using only media queries
+
+Easy to edit and reuse

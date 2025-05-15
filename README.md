@@ -30,5 +30,6 @@ Each folder contains an individual project with its own source files:
 1) Simple-web-page
 2) Registration-Form-repo
 3) Responsive-Landing-Page
+4) Chat-Module-bot
    
 

@@ -1,11 +1,12 @@
+#Ultra-Edit Clone
+
 This project is a responsive front-end clone of the UltraEdit official website. It is created using HTML and CSS only, showcasing the download page for UltraEdit with localized download options and a styled navigation bar.
 
-🔧 Tech Stack
+##🔧 Tech Stack
 HTML5
-
 CSS3 (with media queries for responsiveness)
 
-🚀 Features
+##🚀 Features
 Responsive layout with a grid system
 
 Navbar with dropdown icons (static)
@@ -25,7 +26,7 @@ Dropdown functionality is static (no JavaScript used)
 
 CSS can be modularized into an external file for better readability
 
-💡 Future Improvements
+##💡 Future Improvements
 Add JavaScript functionality to enable dropdown menus
 
 Improve accessibility with ARIA roles

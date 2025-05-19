@@ -1,36 +1,42 @@
-#Ultra-Edit Clone
+# Ultra-Edit Clone
 
-This project is a responsive front-end clone of the UltraEdit official website. It is created using HTML and CSS only, showcasing the download page for UltraEdit with localized download options and a styled navigation bar.
+This project is a **responsive front-end clone** of the UltraEdit official website. It is built using **HTML and CSS only**, showcasing the **download page** for UltraEdit with localized download options and a styled navigation bar.
 
-##🔧 Tech Stack
-HTML5
-CSS3 (with media queries for responsiveness)
+---
 
-##🚀 Features
-Responsive layout with a grid system
+## 🔧 Tech Stack
 
-Navbar with dropdown icons (static)
+- HTML5  
+- CSS3 (with media queries for responsiveness)
 
-Call-to-action download section
+---
 
-Localized download buttons (e.g., English, Deutsch, Español, etc.)
+## 🚀 Features
 
-Styled buttons and icons using SVG and flexbox
+- Responsive layout using a grid system  
+- Navigation bar with dropdown icons (static only)  
+- Call-to-action download section  
+- Localized download buttons (English, Deutsch, Español, etc.)  
+- Styled buttons and icons using **SVG** and **Flexbox**  
+- Mobile layout supported using media queries  
 
-Media query support for mobile layout
+---
 
-Known Issues / To-Do
-Dropdown functionality is static (no JavaScript used)
+## 🐞 Known Issues / To-Do
 
-"Download 32-bit" links are dummy (/file.exe)
+- Dropdown functionality is static (no JavaScript yet)  
+- “Download 32-bit” links are placeholders (`/file.exe`)  
+- CSS can be modularized into separate files for better maintainability  
 
-CSS can be modularized into an external file for better readability
+---
 
-##💡 Future Improvements
-Add JavaScript functionality to enable dropdown menus
+## 💡 Future Improvements
 
-Improve accessibility with ARIA roles
+- Add JavaScript functionality to enable dropdown menus  
+- Improve accessibility (ARIA roles, semantic tags)  
+- Add a language selector toggle feature  
+- Host the project using GitHub Pages  
 
-Add a language selector toggle feature
+---
 
-Host it with GitHub Pages
+✨ *Feel free to fork, contribute, and explore!*  

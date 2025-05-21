@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike Website</title>
+    <title>Your Cart - Nike</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 <body>
@@ -35,32 +36,36 @@
             
             <div id="nav-2nd">
                 <a href="#" class="nav-icon" id="search-icon"><i class="ri-search-2-line"></i></a>
-                <a href="wishlist.html" class="nav-icon" id="wishlist-icon"><i class="ri-heart-line"></i><span class="icon-badge wishlist-count">0</span></a>
+                <a href="wishlist.html" class="nav-icon" id="wishlist-icon"><i class="ri-heart-line"></i><span class="icon-badge wishlist-count">0</span>
+                </a>
                 <a href="cart.html" class="nav-icon" id="cart-icon"><i class="ri-handbag-line"></i><span class="icon-badge cart-count">0</span></a>
             </div>
         </div>
 
-        <main>
-            <div class="left-content">
-                <h2>Explore The Limited Edition</h2>
-                <h1>Nike<br>Just Do It!</h1>
-                <p>Nike shoes combine style, comfort, and performance, making them a top choice for athletes and
-                    casual wearers alike. With innovative designs, superior cushioning, and durable materials, Nike
-                    footwear enhances movement while reflecting modern trends in sports and street fashion.</p>
-                <button id="shop-now-btn">Shop Now</button>
+        <div class="cart-container">
+            <h1 class="cart-title">Your Cart</h1>
+            <div id="cart-items">
+                <!-- Cart items will be loaded dynamically -->
             </div>
-            <div class="right-content">
-                <div class="shoe-slider" id="shoe-slider">
-                    <!-- Shoe cards will be loaded dynamically -->
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
                 </div>
-                <div class="slider-controls">
-                    <button id="prev-btn" class="slider-btn"><i class="ri-arrow-left-s-line"></i></button>
-                    <button id="next-btn" class="slider-btn"><i class="ri-arrow-right-s-line"></i></button>
+                <div class="summary-row">
+                    <span>Shipping:</span>
+                    <span id="shipping">$0.00</span>
                 </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span id="total">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="primary-btn">Proceed to Checkout</button>
+                <button id="continue-shopping" class="secondary-btn">Continue Shopping</button>
             </div>
-        </main>
+        </div>
     </div>
-    
+
     <div id="notification-container"></div>
 
     <script src="js/products.js"></script>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Star Rating</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      
+      text-align: center;
+      justify-content: center;
+      margin: 50px;
+      padding: 50px;
+    }
+    .star {
+      font-size: 30px;
+      cursor: pointer;
+      color: grey;
+    }
+
+    .star.selected {
+      color: gold;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  <h2>Star Rating system</h2>
+  <div id="stars">
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+    <span class="star">&#9733;</span>
+  </div>
+
+  <p id="rating">Rating: 0</p>
+
+  <script>
+
+    $(function () {
+      $(".star").click(function () {
+        const index = $(this).index() + 1
+        $("#rating").text("Rating: " + index)
+        $(".star").removeClass("selected").slice(0, index).addClass("selected")
+      })
+    })
+    
+
+  </script>
+</body>
+
+</html>

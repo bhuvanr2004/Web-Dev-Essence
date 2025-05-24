@@ -1,0 +1,212 @@
+/* Responsive Styles */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    #nav {
+        padding: 0 20px;
+    }
+    
+    #nav-1st {
+        margin-right: 0;
+    }
+    
+    .nav-item {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    
+    .search-bar {
+        min-width: 150px;
+    }
+    
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .left-content {
+        width: 100%;
+        padding: 60px 40px;
+    }
+    
+    .right-content {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    
+    .shoe-card {
+        min-width: 240px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    #nav-1st {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        transition: left 0.3s ease;
+        z-index: 99;
+    }
+    
+    #nav-1st.active {
+        left: 0;
+    }
+    
+    .logo img {
+        margin-right: 0;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-item {
+        height: 50px;
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+    
+    .nav-item::after {
+        display: none;
+    }
+    
+    .search-bar {
+        display: none;
+    }
+    
+    .search-bar.active {
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 15px;
+        background-color: #f5f5f5;
+        z-index: 98;
+    }
+    
+    #nav-2nd {
+        margin-left: auto;
+    }
+    
+    .left-content {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .left-content h1 {
+        font-size: 36px;
+    }
+    
+    .left-content p {
+        font-size: 14px;
+    }
+    
+    .left-content button {
+        align-self: center;
+    }
+    
+    .shoe-slider {
+        gap: 15px;
+        padding: 10px 5px;
+    }
+    
+    .shoe-card {
+        min-width: 220px;
+        padding: 20px 15px;
+    }
+    
+    .shoe-card img {
+        height: 150px;
+    }
+    
+    .shoe-card h3 {
+        font-size: 16px;
+    }
+    
+    .shoe-card p {
+        font-size: 12px;
+    }
+    
+    .slider-controls {
+        bottom: 15px;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    #nav {
+        padding: 0 15px;
+        height: 70px;
+    }
+    
+    #nav-1st {
+        top: 70px;
+    }
+    
+    .logo img {
+        height: 20px;
+    }
+    
+    .nav-icon {
+        font-size: 20px;
+    }
+    
+    .left-content {
+        padding: 30px 15px;
+    }
+    
+    .left-content h2 {
+        font-size: 12px;
+    }
+    
+    .left-content h1 {
+        font-size: 32px;
+    }
+    
+    .left-content p {
+        font-size: 13px;
+    }
+    
+    .left-content button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .right-content {
+        padding: 30px 10px;
+    }
+    
+    .shoe-card {
+        min-width: 180px;
+        padding: 15px 10px;
+    }
+    
+    .shoe-card h3 {
+        font-size: 14px;
+    }
+    
+    .shoe-card p {
+        font-size: 11px;
+    }
+    
+    .slider-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+}

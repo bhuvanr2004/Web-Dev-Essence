@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div class="menu-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+            <div id="nav-1st">
+                <a href="index.html" class="logo">
+                    <img src="https://purepng.com/public/uploads/large/purepng.com-nike-logologobrand-logoiconslogos-251519940082eoxxs.png" alt="nike logo">
+                </a>
+                <div class="nav-links">
+                    <a href="#" class="nav-item">NEW&FEATURED</a>
+                    <a href="#" class="nav-item">MEN</a>
+                    <a href="#" class="nav-item">WOMEN</a>
+                    <a href="#" class="nav-item">COLLECTIONS</a>
+                    <a href="#" class="nav-item">SALES</a>
+                    <a href="#" class="nav-item">SNKRS</a>
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search">
+                <button id="search-btn"><i class="ri-search-2-line"></i></button>
+            </div>
+            
+            <div id="nav-2nd">
+                <a href="#" class="nav-icon" id="search-icon"><i class="ri-search-2-line"></i></a>
+                <a href="wishlist.html" class="nav-icon" id="wishlist-icon"><i class="ri-heart-line"></i><span class="icon-badge wishlist-count">0</span></a>
+                <a href="cart.html" class="nav-icon" id="cart-icon"><i class="ri-handbag-line"></i><span class="icon-badge cart-count">0</span></a>
+            </div>
+        </div>
+
+        <main>
+            <div class="left-content">
+                <h2>Explore The Limited Edition</h2>
+                <h1>Nike<br>Just Do It!</h1>
+                <p>Nike shoes combine style, comfort, and performance, making them a top choice for athletes and
+                    casual wearers alike. With innovative designs, superior cushioning, and durable materials, Nike
+                    footwear enhances movement while reflecting modern trends in sports and street fashion.</p>
+                <button id="shop-now-btn">Shop Now</button>
+            </div>
+            <div class="right-content">
+                <div class="shoe-slider" id="shoe-slider">
+                    <!-- Shoe cards will be loaded dynamically -->
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-btn" class="slider-btn"><i class="ri-arrow-left-s-line"></i></button>
+                    <button id="next-btn" class="slider-btn"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <div id="notification-container"></div>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
